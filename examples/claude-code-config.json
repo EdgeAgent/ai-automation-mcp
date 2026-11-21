@@ -1,0 +1,1 @@
+{"mcpServers":{"business-tools":{"args":["run","business-tools"],"command":"ai-mcp"},"lead-tools":{"args":["run","lead-tools"],"command":"ai-mcp"},"mini-crm":{"args":["run","mini-crm","--crm-path","./.ai-mcp-crm.json"],"command":"ai-mcp"}}}

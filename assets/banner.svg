@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
+  <title id="title">AI Automation MCP</title>
+  <desc id="desc">Give your agents hands — MCP servers and skills that connect AI agents to real tools, safely.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="300" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#060A14"/>
+      <stop offset="1" stop-color="#111B36"/>
+    </linearGradient>
+    <linearGradient id="stroke" x1="980" y1="60" x2="1140" y2="240" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2DD4BF"/>
+      <stop offset=".55" stop-color="#58B9FF"/>
+      <stop offset="1" stop-color="#E8B84B"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="1200" height="300" fill="url(#bg)"/>
+  <g fill="none" stroke="url(#stroke)" stroke-linecap="round" stroke-width="6" opacity="0.9">
+    <path d="M1060 118 L1060 84 M1048 156 L1014 178 M1072 156 L1106 178"/>
+  </g>
+  <g fill="#EAF6FF" stroke="#13223D" stroke-width="4">
+    <rect x="1046" y="58" width="28" height="28" rx="7"/>
+    <rect x="986" y="172" width="28" height="28" rx="7"/>
+    <rect x="1106" y="172" width="28" height="28" rx="7"/>
+  </g>
+  <circle cx="1060" cy="140" r="22" fill="#E8B84B" stroke="#13223D" stroke-width="4"/>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="60" y="118" font-size="52" font-weight="bold" fill="#EAF6FF">AI Automation <tspan fill="#E8B84B">MCP</tspan></text>
+    <text x="60" y="168" font-size="30" fill="#2DD4BF">Give your agents hands</text>
+    <text x="60" y="248" font-size="24" fill="#9FB3C8">6 MCP servers · 4 skills · approval gates — tested with fakes</text>
+    <text x="1140" y="70" font-size="22" fill="#9FB3C8" text-anchor="end">STEP 3 · EDGE AGENCY</text>
+  </g>
+</svg>

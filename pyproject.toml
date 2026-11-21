@@ -1,0 +1,62 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "ai-automation-mcp"
+version = "0.1.0"
+description = "Give your agents hands — MCP servers and skills that connect AI agents to real tools, safely."
+readme = "README.md"
+requires-python = ">=3.11"
+license = "MIT"
+authors = [{ name = "Kevin Doherty" }]
+keywords = ["mcp", "model-context-protocol", "ai", "agents", "automation", "llm", "python", "generative-ai"]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Intended Audience :: Developers",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: 3.13",
+  "Topic :: Software Development :: Libraries :: Python Modules",
+]
+dependencies = [
+  "pydantic",
+  "pydantic-settings",
+  "python-dotenv",
+  "httpx",
+  "tenacity",
+  "structlog",
+  "typer",
+  "rich",
+]
+
+[project.scripts]
+ai-mcp = "ai_automation_mcp.cli:app"
+
+[project.optional-dependencies]
+dev = [
+  "pytest",
+  "pytest-cov",
+  "ruff",
+  "mypy",
+  "pre-commit",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/ai_automation_mcp"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src", "."]
+addopts = "-ra"
+
+[tool.ruff]
+target-version = "py311"
+line-length = 100
+
+[tool.mypy]
+python_version = "3.11"
+warn_unused_configs = true
+strict = true

@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 640" role="img" aria-labelledby="title desc">
+  <title id="title">AI Automation MCP — social preview (1280x640)</title>
+  <desc id="desc">Give your agents hands — MCP servers and skills that connect AI agents to real tools, safely. Edge Agency navy, gold, and teal.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="640" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#060A14"/>
+      <stop offset="1" stop-color="#111B36"/>
+    </linearGradient>
+    <linearGradient id="rule" x1="80" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2DD4BF"/>
+      <stop offset=".5" stop-color="#58B9FF"/>
+      <stop offset="1" stop-color="#E8B84B"/>
+    </linearGradient>
+    <linearGradient id="stroke" x1="1000" y1="120" x2="1200" y2="320" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2DD4BF"/>
+      <stop offset="1" stop-color="#E8B84B"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="1280" height="640" fill="url(#bg)"/>
+  <rect x="8" y="8" width="1264" height="624" rx="24" fill="none" stroke="#314564" stroke-width="2"/>
+  <g fill="none" stroke="url(#stroke)" stroke-linecap="round" stroke-width="7" opacity="0.9">
+    <path d="M1110 200 L1110 160 M1096 232 L1052 262 M1124 232 L1168 262"/>
+  </g>
+  <g fill="#EAF6FF" stroke="#13223D" stroke-width="4">
+    <rect x="1092" y="128" width="36" height="36" rx="9"/>
+    <rect x="1016" y="256" width="36" height="36" rx="9"/>
+    <rect x="1168" y="256" width="36" height="36" rx="9"/>
+  </g>
+  <circle cx="1110" cy="222" r="20" fill="#E8B84B" stroke="#13223D" stroke-width="4"/>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="80" y="120" font-size="30" letter-spacing="4" fill="#2DD4BF">EDGE AGENCY · STEP 3</text>
+    <text x="80" y="205" font-size="76" font-weight="bold" fill="#EAF6FF">Give your agents <tspan fill="#E8B84B">hands</tspan></text>
+    <text x="80" y="290" font-size="38" fill="#EAF6FF">MCP servers and skills that connect</text>
+    <text x="80" y="342" font-size="38" fill="#EAF6FF">AI agents to real tools, safely.</text>
+    <rect x="80" y="396" width="760" height="4" rx="2" fill="url(#rule)"/>
+    <text x="80" y="470" font-size="30" fill="#9FB3C8">Python · fakes-first tests · approval gates · MIT</text>
+    <text x="80" y="560" font-size="26" fill="#9FB3C8">github.com/EdgeAgent/ai-automation-mcp</text>
+  </g>
+</svg>
